@@ -4,7 +4,6 @@ angular.module('app')
         shopService.getProducts()
             .then(response => {
                 $scope.products = response.data
-                return response.data
         })
 
 
