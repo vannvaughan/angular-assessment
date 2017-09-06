@@ -1,7 +1,7 @@
 angular.module('app')
     .directive('logo', function(){
         return {
-            templateUrl: '/logo.html',
-            retrict: 'E'
+            retrict: 'E',
+            templateUrl: './logo.html'
         }
 })
